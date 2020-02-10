@@ -1,0 +1,31 @@
+imports:
+  - {resource: admin/}
+###### under not use anymore with import .... see conf in packages/admin +entites
+#easy_admin:
+#    design:
+#        menu:
+#            - label: 'Blog'
+#              icon: 'newspaper-o'
+#              children:
+#                - {entity: 'Post', icon: 'newspaper-o', label: 'Articles'}
+#                - {entity: 'Category', icon: 'inbox', label: 'Catégories'}
+#    entities:
+#        Category:
+#            class:  App\Entity\Category
+#            form:
+#                fields:
+#                    - {property: 'name'}
+#                    - {property: 'slug'}
+#        Post:
+#            class: App\Entity\Post
+######
+        # List the entity class name you want to manage
+#        - App\Entity\Product
+#        - App\Entity\Category
+#        - App\Entity\User
+#        - App\Entity\Post
+
+
+
+# imports:
+#    - {resource: admin/}
